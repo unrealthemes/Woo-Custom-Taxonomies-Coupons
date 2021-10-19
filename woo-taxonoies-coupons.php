@@ -3,7 +3,7 @@
  * Plugin Name:       Woo Custom Taxonomies Coupons
  * Plugin URI:        https://wordpress.org/plugins/woo-taxonomies-coupons/
  * Description:       Issue Coupons for your selected taxonomies including tags and all of your custom taxonomies
- * Version:           2.0
+ * Version:           2.1
  * Author:            Roman Bondarenko
  * Author URI:        https://unrealthemes.site/
  * License:           GPL-2.0+
