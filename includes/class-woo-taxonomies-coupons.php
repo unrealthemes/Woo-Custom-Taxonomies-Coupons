@@ -132,11 +132,6 @@ final class Ut_Woo_Taxonomies_Coupons {
 					}
 				}	
 
-				// TO DO: create function wc_get_product_tax_ids()
-				// if ( $item->product->get_parent_id() ) {
-				// 	$all_product_terms = array_merge( $all_product_terms, wc_get_product_cat_ids( $product->get_parent_id()) ) );
-				// }
-
 				// If we find an item with a cat in our allowed cat list, the coupon is valid.
 				if ( count( array_intersect( $all_product_terms, $coupon_taxonomies ) ) > 0 ) {
 					$valid = true;
@@ -192,11 +187,6 @@ final class Ut_Woo_Taxonomies_Coupons {
 						}
 					}
 				}	
-
-				// TO DO: create function wc_get_product_tax_ids()
-				// if ( $product->get_parent_id() ) {
-				// 	$all_product_terms = array_merge( $all_product_terms, wc_get_product_cat_ids( $product->get_parent_id() ) );
-				// }
 
 				$all_product_taxonomies = array_filter( $all_product_taxonomies );
 				$all_product_taxonomies = array_unique( $all_product_taxonomies );
